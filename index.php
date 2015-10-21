@@ -8,6 +8,7 @@ $password = getenv("MYSQL_SERVICE_PASSWORD");
 $conn = new mysqli($host.":".$port, $username, $password);
 
 echo "<h1>Evong's PHP App</h1>";
+echo "<p>Testing webhook...</p>";
 
 // Check connection
 if ($conn->connect_error) {
