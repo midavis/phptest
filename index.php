@@ -1,8 +1,8 @@
 <?php
-$host = getenv("MYSQL_SERVICE_HOST");
-$port = getenv("MYSQL_SERVICE_PORT");
-$username = getenv("MYSQL_SERVICE_USERNAME");
-$password = getenv("MYSQL_SERVICE_PASSWORD");
+$host = "10.1.0.7");
+$port = "3306";
+$username = "michelle";
+$password = "michelle";
 
 // Create connection
 $conn = new mysqli($host.":".$port, $username, $password);
