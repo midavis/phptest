@@ -7,7 +7,7 @@ $password = 'michelle';
 // Create connection
 $conn = new mysqli($host.":".$port, $username, $password);
 
-echo "<h1>Michelle's PHP App</h1>";
+echo "<h1>NASA's PHP App</h1>";
 echo "<p>Testing webhook...</p>";
 
 // Check connection
