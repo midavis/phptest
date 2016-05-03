@@ -1,8 +1,8 @@
 <?php
-$host = '172.30.121.61';
+$host = '172.30.115.83';
 $port = '3306';
-$username = 'michelle';
-$password = 'michelle';
+$username = 'admin';
+$password = 'admin';
 
 // Create connection
 $conn = new mysqli($host.":".$port, $username, $password);
